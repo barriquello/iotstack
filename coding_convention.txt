@@ -1,1 +1,6 @@
-coding conventions:
+Coding Conventions:
+
+1) Primary language is English 
+(all comments and code shall be written in English)
+
+
