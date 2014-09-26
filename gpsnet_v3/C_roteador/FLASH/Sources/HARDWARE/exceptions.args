@@ -1,0 +1,81 @@
+-sym full
+-msgstyle parseable
+-proc 51QE
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-c
+-nostdinc
+-nosyspath
+-enc ascii
+-i
+"$(ProjDirPath)/Project_Headers"
+-i
+"$(ProjDirPath)/Project_Settings/Startup_Code"
+-i
+"$(ProjDirPath)/Sources/CONFIG"
+-i
+"$(ProjDirPath)/Sources/HARDWARE"
+-i
+"$(BRTOS)/includes"
+-i
+"$(MODULOS)/GPSNET_V2"
+-i
+"$(HAL)/CodeWarrior_CFV1"
+-i
+"$(DRIVERS)/Radio_Driver"
+-i
+"$(ProjDirPath)/Sources"
+-i
+"$(DRIVERS)/ADC"
+-i
+"$(DRIVERS)/GPIO"
+-i
+"$(DRIVERS)/FLASH"
+-i
+"$(DRIVERS)/FLASH_EEPROM"
+-i
+"$(DRIVERS)/SPI"
+-i
+"$(APPS)/BOOTLOADER"
+-i
+"$(APPS)/UTILS"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/hcs08_compatibility"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_C/include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_C/include/sys"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/EWL_Runtime/Runtime_ColdFire/Source"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/derivatives/device/include"
+-I-
+-I"$(MCUToolsBaseDirEnv)/ColdFire_Support/derivatives/device/asm_include"
+-warn illpragmas
+-warn unwanted
+-warn extended
+-warn hidevirtual
+-warn implicitconv
+-warn unusedarg
+-warn unusedvar
+-warn extracomma
+-warn emptydecl
+-warn structclass
+-opt level=1
+-opt space
+-ipa off
+-inline on
+-align coldfire
+-model farCode
+-model farData
+-fp soft
+-coloring
+-noscheduling
+-peephole
+-sdata all
+-requireprotos
+-bool off
+-Cpp_Exceptions off
+-RTTI off
+-char unsigned
+-str nopool
+-str reuse

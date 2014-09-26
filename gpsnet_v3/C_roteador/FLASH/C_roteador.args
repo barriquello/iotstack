@@ -1,0 +1,47 @@
+"./Lib/mcf51qe128_c.obj"
+"./MODULOS/APPS/BOOTLOADER/MCF51_Bootloader_c.obj"
+"./MODULOS/APPS/BOOTLOADER/Bootloader_wireless_c.obj"
+"./MODULOS/APPS/UTILS/math_utils_c.obj"
+"./MODULOS/BRTOS/timers_c.obj"
+"./MODULOS/BRTOS/semaphore_c.obj"
+"./MODULOS/BRTOS/queue_c.obj"
+"./MODULOS/BRTOS/mutex_c.obj"
+"./MODULOS/BRTOS/mbox_c.obj"
+"./MODULOS/BRTOS/OS_RTC_c.obj"
+"./MODULOS/BRTOS/BRTOS_c.obj"
+"./MODULOS/DRIVERS/ADC/adc_c.obj"
+"./MODULOS/DRIVERS/FLASH/flash_c.obj"
+"./MODULOS/DRIVERS/FLASH_EEPROM/FL_eeprom_c.obj"
+"./MODULOS/DRIVERS/GPIO/gpio_c.obj"
+"./MODULOS/DRIVERS/Radio_Driver/MRF24J40_c.obj"
+"./MODULOS/DRIVERS/SPI/SPI_c.obj"
+"./MODULOS/GPSNET_V2/network_c.obj"
+"./MODULOS/GPSNET_V2/mac_c.obj"
+"./MODULOS/GPSNET_V2/gpsr_c.obj"
+"./MODULOS/GPSNET_V2/gpsnet_core_c.obj"
+"./MODULOS/HAL/CodeWarrior_CFV1/HAL_c.obj"
+"./Sources/HARDWARE/usr_entry_c.obj"
+"./Sources/HARDWARE/startcf_c.obj"
+"./Sources/HARDWARE/exceptions_c.obj"
+"./Sources/HARDWARE/MCUinit_c.obj"
+"./Sources/tasks_c.obj"
+"./Sources/smartmeter_c.obj"
+"./Sources/sensors_c.obj"
+"./Sources/main_c.obj"
+"./Sources/exceptions_c.obj"
+"./Sources/app_c.obj"
+-sym full
+-msgstyle parseable
+-proc 51QE
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+-nostdlib
+"$(ProjDirPath)/Project_Settings/Linker_Files/Project.lcf"
+-m __Entry
+-L"$(MCUToolsBaseDirEnv)/ColdFire_Support/ewl/lib"
+-application
+-map
+-map keep
+-srec
+-sreclength 64
+-sreceol dos
+-w on

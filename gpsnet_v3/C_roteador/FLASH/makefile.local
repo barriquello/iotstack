@@ -1,0 +1,40 @@
+################################################################################
+# These macros are used by makefiles and argument files.
+# When a space is included in the path and quotes (") cannot be used,
+# a _ESCAPE version of the macro is added that escapes the space with backslash (\).
+################################################################################
+
+export SPI_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/SPI
+export HC08ToolsEnv=$(CWInstallLocationEnv)/MCU/prog
+export SPI=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/SPI
+export GNU_Make_Install_DirEnv=$(CWInstallLocationEnv)/gnu/bin
+export RADIO_DRIVER_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/Radio_Driver
+export FLASH_EEPROM=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/FLASH_EEPROM
+export ProjDirPath=C:/Users/Universidade Federal/workspace/gpsnet_v3/C_roteador
+export CWInstallLocationEnv=C:/Freescale/CW MCU v10.4
+export GPSNET_V2=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/GPSNET_V2
+export GPSNET_V2_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/GPSNET_V2
+export RADIO_DRIVER=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/Radio_Driver
+export CODEWARRIOR_CFV1_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/HAL/CodeWarrior_CFV1
+export UTILS_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/APPS/UTILS
+export CODEWARRIOR_CFV1=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/HAL/CodeWarrior_CFV1
+export MCUToolsBaseDirEnv=$(CWInstallLocationEnv)/MCU
+export ADC_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/ADC
+export APPS=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/APPS
+export FLASH=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/FLASH
+export DRIVERS=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS
+export HAL=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/HAL
+export CF_ToolsDirEnv=$(CWInstallLocationEnv)/MCU/ColdFire_Tools/Command_Line_Tools
+export FLASH_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/FLASH
+export BRTOS_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/BRTOS
+export BOOTLOADER=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/APPS/BOOTLOADER
+export BRTOS=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/BRTOS
+export GPIO_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/GPIO
+export GPIO=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/GPIO
+export BIN_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/APPS/COMM2PC/project_for_coding/XMACRO_cmds/bin
+export BOOTLOADER_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/APPS/BOOTLOADER
+export BIN=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/APPS/COMM2PC/project_for_coding/XMACRO_cmds/bin
+export FLASH_EEPROM_ESCAPED=C:/Users/Universidade\ Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/FLASH_EEPROM
+export UTILS=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/APPS/UTILS
+export MODULOS=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS
+export ADC=C:/Users/Universidade Federal/workspace/gpsnet_v3/MODULOS/DRIVERS/ADC
