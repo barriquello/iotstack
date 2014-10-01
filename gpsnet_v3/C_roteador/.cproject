@@ -28,7 +28,7 @@
 						<toolChain id="com.freescale.coldfire.toolchain.toolchain.project.920745679" name="ColdFire Toolchain" superClass="com.freescale.coldfire.toolchain.toolchain.project">
 							<option id="com.freescale.coldfire.toolchain.sharedoption.processor.1002672653" name="Processor Family (-proc)" superClass="com.freescale.coldfire.toolchain.sharedoption.processor" value="com.freescale.coldfire.toolchain.sharedoption.processor.51QE" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.freescale.coldfire.toolchain.platform.685379614" name="ColdFire Target Platform" superClass="com.freescale.coldfire.toolchain.platform"/>
-							<builder buildPath="${ProjDirPath}/FLASH" id="com.freescale.coldfire.toolchain.builder.139748918" keepEnvironmentInBuildfile="false" name="GNU Make Builder" parallelizationNumber="-1" superClass="com.freescale.coldfire.toolchain.builder"/>
+							<builder buildPath="${ProjDirPath}/FLASH" id="com.freescale.coldfire.toolchain.builder.139748918" keepEnvironmentInBuildfile="false" name="GNU Make Builder" parallelBuildWorkspaceOn="true" parallelizationNumber="-1" superClass="com.freescale.coldfire.toolchain.builder"/>
 							<tool id="coldfire.toolchain.burner.700405917" name="Burner" superClass="coldfire.toolchain.burner"/>
 							<tool id="com.freescale.coldfire.toolchain.linker.debug.802173383" name="ColdFire Linker" superClass="com.freescale.coldfire.toolchain.linker.debug">
 								<option id="com.freescale.coldfire.toolchain.linker.base.generateLinkMap.250031311" name="Generate Link Map" superClass="com.freescale.coldfire.toolchain.linker.base.generateLinkMap" value="true" valueType="boolean"/>
@@ -62,7 +62,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/C_roteador/MODULOS/APPS/BOOTLOADER}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/C_roteador/MODULOS/APPS/UTILS}&quot;"/>
 								</option>
-								<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sdata.783513204" name="Use .sdata/.sbiss for (byte in integer between -1..32K)" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sdata" value="all" valueType="string"/>
+								<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sdata.783513204" name="Use .sdata/.sbiss for (byte in integer between -1..32K)" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sdata" value="0" valueType="string"/>
 								<option id="com.freescale.coldfire.toolchain.compiler.base.input.include.system.25292587" name="System Path (-I- -I)" superClass="com.freescale.coldfire.toolchain.compiler.base.input.include.system" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/hcs08_compatibility&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ColdFire_Support/ewl/EWL_C/include&quot;"/>
@@ -76,6 +76,7 @@
 								<option id="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off.1503274234" name="Enable wchar_t Support" superClass="com.freescale.coldfire.toolchain.compiler.base.general.wchar.off" value="true" valueType="boolean"/>
 								<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.code.471461998" name="Code Model" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.code" value="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.code.far" valueType="enumerated"/>
 								<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.coloring.940792886" name="Register Coloring (-coloring)" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.coloring" value="true" valueType="boolean"/>
+								<option id="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sche.1109310832" name="Instruction Scheduling (-scheduling)" superClass="com.freescale.coldfire.toolchain.compiler.base.optionCategory.processor.sche" value="true" valueType="boolean"/>
 								<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.835804148" name="C Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input"/>
 								<inputType id="com.freescale.coldfire.toolchain.compiler.base.input.c++.1657457320" name="C++ Source File" superClass="com.freescale.coldfire.toolchain.compiler.base.input.c++"/>
 							</tool>
